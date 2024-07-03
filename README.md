@@ -59,10 +59,8 @@
 - **Misc -> Security**
   - Set `ScanPolicy` to `0` for dual booting. Refer to the [ScanPolicy Docs].
 - **NVRAM -> Add -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> boot-args**:
-  - Remove `-v` from your config.plist.
-- **NVRAM -> Add -> D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14 -> UIScale**:
-  - One-byte data defining boot.efi user interface scaling. Use `01` for normal screens and `02` for HiDPI screens. (Set to `02` for Dell P2418D).
-
+  - Add `-v agdpmod=pikera e1000=0 keepsyms=1 debug=0x100 -ctrsmt alcid=11` from your config.plist.
+    
 ### Troubleshooting
 
 - If you encounter any problems, search for `xhciportlimits` in config.plist and disable it.
@@ -155,6 +153,6 @@ Map your USB ports with this tool:
 
 - Add `boot-args`:
   - Under `NVRAM -> Add -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> boot-args`
-  - Add `agdpmod=pikera e1000=0 keepsyms=1 -ctrsmt alcid=11` to remove verbose mode and add audio support.
+  - Change to `agdpmod=pikera e1000=0 keepsyms=1 -ctrsmt alcid=11` to remove verbose mode and add audio support.
 
 
