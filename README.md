@@ -1,4 +1,4 @@
-# Hackintosh on Msi Pro B760-P with AMD RX 6800 via [OpenCore][1]
+# Hackintosh on Msi Pro B760-P with AMD RX 6800 via [OpenCore]
 
 
 
@@ -21,8 +21,9 @@
 ### **Before you start make sure you have**
 
 * Working hardware
-* [BIOS][10] version `>= 7D98v18`
-* Read [OpenCore Desktop Guide][20]
+* [BIOS] version `>= 7D98v18`
+* Read [OpenCore Desktop Guide]
+* `https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html`
 
 
 ## Installation
