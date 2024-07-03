@@ -32,19 +32,19 @@
 ---
 
 * **Install macOS Monterey**
-  - Download from here: https://www.olarila.com/topic/6278-olarila-vanilla-images-macos-installer/
+  - [Download from here](https://www.olarila.com/topic/6278-olarila-vanilla-images-macos-installer/)
 
 * **Burn your RAW file to your USB with Balena Etcher**
-  - Download from here: https://etcher.balena.io/
+  - [Download from here](https://etcher.balena.io/)
 
 * **Make your EFI USB partition visible with MiniTool Partition Wizard**
-  - Download the free version: https://www.partitionwizard.com/
+  - [Download the free version](https://www.partitionwizard.com/)
 
 * **Paste the EFI folder using Explorer++**
-  - Download from here: https://explorerplusplus.com/download
+  - [Download from here](https://explorerplusplus.com/download)
 
 * **For a tutorial, follow this video**
-  - Watch here: https://www.youtube.com/watch?v=BfcdklKjvY4
+  - [Watch here](https://www.youtube.com/watch?v=BfcdklKjvY4)
 
 ---
 ### Platform Information
@@ -55,9 +55,9 @@
 ### Post-Installation
 
 - **Misc -> Boot**
-  - Set `PickerMode` to `External` and add files from [Setting up OpenCore's GUI][26].
+  - Set `PickerMode` to `External` and add files from [Setting up OpenCore's GUI].
 - **Misc -> Security**
-  - Set `ScanPolicy` to `0` for dual booting. Refer to the [ScanPolicy Docs][24].
+  - Set `ScanPolicy` to `0` for dual booting. Refer to the [ScanPolicy Docs].
 - **NVRAM -> Add -> 7C436110-AB2A-4BBB-A880-FE41995C9F82 -> boot-args**:
   - Remove `-v` from your config.plist.
 - **NVRAM -> Add -> D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14 -> UIScale**:
@@ -102,9 +102,9 @@ You can enable XMP if your memory supports it.
 
 ### EFI Drivers
 
-* [HfsPlus.efi][7] - Needed for seeing HFS volumes (i.e., macOS installers and recovery partitions/images).
+* [HfsPlus.efi] - Needed for seeing HFS volumes (i.e., macOS installers and recovery partitions/images).
 * OpenRuntime.efi - Required for working with native NVRAM.
-* OpenCanopy.efi - For [OpenCore's GUI][25].
+* OpenCanopy.efi - For [OpenCore's GUI].
   
 ---
 
@@ -127,7 +127,7 @@ You can enable XMP if your memory supports it.
 ### Before Installation
 
 Generate a serial number for your Mac with this tool:  
-https://github.com/corpnewt/GenSMBIOS
+- [Download from here](https://github.com/corpnewt/GenSMBIOS)
 
 ---
 
@@ -141,13 +141,13 @@ Please check `Config Example\config.plist` for a post-install config example.
 
 **Boot from Disk**  
 Transfer your EFI folder from your USB stick to your disk for USB-free booting with this tool:  
-https://www.olarila.com/files/Utils/ESP%20Mounter%20Pro.app_v1.9.1.zip
+- [Download from here](https://www.olarila.com/files/Utils/ESP%20Mounter%20Pro.app_v1.9.1.zip)
 
 ---
 
 **Map Your USB**  
 Map your USB ports with this tool:  
-https://github.com/USBToolBox/tool/releases
+- [Download from here](https://github.com/USBToolBox/tool/releases)
 
 ---
 
