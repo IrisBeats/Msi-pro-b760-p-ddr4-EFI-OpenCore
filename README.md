@@ -23,7 +23,7 @@
 * Working hardware
 * [BIOS] version `>= 7D98v18`
 * Read [OpenCore Desktop Guide]
-* `https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html`
+* https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html
 
 
 ## Installation
