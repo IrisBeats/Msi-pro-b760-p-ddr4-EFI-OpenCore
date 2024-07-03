@@ -25,6 +25,24 @@
 
 ## Installation
 
+---
+
+* **Install macOS Monterey**
+  - Download from here: https://www.olarila.com/topic/6278-olarila-vanilla-images-macos-installer/
+
+* **Burn your RAW file to your USB with Balena Etcher**
+  - Download from here: https://etcher.balena.io/
+
+* **Make your EFI USB partition visible with MiniTool Partition Wizard**
+  - Download the free version: https://www.partitionwizard.com/
+
+* **Paste the EFI folder using Explorer++**
+  - Download from here: https://explorerplusplus.com/download
+
+* **For a tutorial, follow this video**
+  - Watch here: https://www.youtube.com/watch?v=BfcdklKjvY4
+
+---
 ### BIOS Settings
 
 * **Advanced** → D.T.M → [**Enabled**]
