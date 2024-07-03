@@ -1,6 +1,4 @@
-Sure, here is the corrected README:
 
----
 
 # Hackintosh on MSI Pro B760-P with AMD RX 6800 via [OpenCore]
 
